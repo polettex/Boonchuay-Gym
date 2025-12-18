@@ -1,0 +1,31 @@
+# robots.txt for Boonchuay Gym
+# https://www.boonchuaygym.com/robots.txt
+
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Disallow admin and config areas
+Disallow: /config/
+Disallow: /database/
+
+# Sitemap location
+Sitemap: https://www.boonchuaygym.com/sitemap.xml
+
+# Crawl delay (optional, helps prevent server overload)
+Crawl-delay: 1
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
